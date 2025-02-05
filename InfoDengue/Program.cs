@@ -1,3 +1,5 @@
+using InfoDengue;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+Setup.AddEntityFrameworkServices(builder);
+Setup.AddRegisterServices(builder);
+Setup.AddCors(builder);
+
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

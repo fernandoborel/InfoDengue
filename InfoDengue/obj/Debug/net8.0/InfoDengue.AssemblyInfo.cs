@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfoDengue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb5ae01d714129aec01db81391f2b1c75113fa4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfoDengue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfoDengue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
